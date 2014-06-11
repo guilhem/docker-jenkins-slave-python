@@ -1,4 +1,4 @@
-FROM guilhem/jenkins-slave
+FROM guilhem/jenkins-slave:12.04
 MAINTAINER Guilhem Lettron "guilhem@lettron.fr"
 
 RUN apt-get update && apt-get install -y python && apt-get clean
